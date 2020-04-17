@@ -1,0 +1,83 @@
+1. intialize git in folder or directory
+ 
+      git init
+
+2. connect local repository to remote repository
+
+     git remote add origin https://github.com/ebinezerp/b200317-demo.git
+
+3. To see remote repo connections
+    
+    git remote -v
+
+
+4. To sync local repo with remote repo, it is recommended to pull content from remote repo before performing any actions/changes in your local repo
+
+     git pull origin master
+
+
+   Git works in non linear follow
+
+      init -> main follow -> main branch(master branch)
+
+                               we can create sub branches in order to not to effect main code
+
+
+
+
+5. Work on local repo
+
+    work is completed or modification are done.
+
+    add those changes from workspace(localdisk) -> local repo (git repo) - stagging
+
+    git add document1.txt
+  
+    git add  *.txt
+
+    git add *
+
+
+
+
+6. To see the status of your files
+  
+
+     git status
+
+
+
+7. to finalize or commit the changes 
+
+    git commit -m "this is my first commit"
+
+
+   first commit 
+
+
+
+
+       user.username
+       user.email
+
+
+
+
+8. To push changes from local repo to centeral/remote repo:
+
+    git push origin master
+
+    first time
+
+        username: github username
+        password:password
+
+
+
+
+
+    
+
+
+
+
